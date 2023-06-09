@@ -1,11 +1,6 @@
+import App from './views/App';
 import './index.scss';
 
-const $app = document.querySelector("#app");
+const $app = document.querySelector('#app');
 
-function component() {
-  const element = document.createElement('div');
-  element.innerHTML = 'Hello World';
-  return element;
-}
-
-$app.appendChild(component());
+new App($app, {});
