@@ -19,6 +19,7 @@ export default class ReservationDetail extends Component {
       <div class="reservation-detail">
         <!-- 예약 정보 -->
         <div class="info-box">
+          <!-- TODO: 닫기 버튼 -->
           <h3>예약 정보</h3>
           <div class="info-item">
             <label>예약 상태</label>

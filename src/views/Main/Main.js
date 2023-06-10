@@ -2,6 +2,7 @@ import axios from 'axios';
 import Component from '@/core/Component';
 import ReservationCard from '@/components/ReservationCard/ReservationCard';
 import ReservationDetail from '@/components/ReservationDetail/ReservationDetail';
+import Modal from '@/modal/Modal';
 
 import './Main.scss';
 
@@ -14,6 +15,8 @@ export default class App extends Component {
     this.getReservations();
   }
 
+  get isMobile() { return screen.width < 1024; }
+
   didUpdate() {
     const { reservations, focusReservation } = this.state;
     for (const reservation of reservations) {
@@ -25,8 +28,19 @@ export default class App extends Component {
         onDone: this.onClickDoneBtn.bind(this),
       });
     }
-    if (focusReservation) {
-      const $reservationDetail = this.target.querySelector('#reservation-detail');
+
+    if (this.isMobile) {
+      const $modal = this.target.querySelector('#reservation-detail-modal');
+      new Modal($modal, {
+        content: `<div id="reservation-detail"></div>`,
+        close: function () {
+          this.setState({ focusReservation: null });
+        }.bind(this),
+      });
+    }
+
+    const $reservationDetail = this.target.querySelector('#reservation-detail');
+    if (focusReservation && $reservationDetail) {
       new ReservationDetail($reservationDetail, { reservation: focusReservation });
     }
   }
@@ -38,7 +52,7 @@ export default class App extends Component {
       const { reservations } = resp.data;
       this.setState({
         reservations,
-        focusReservation: reservations[0], // TODO:
+        focusReservation: this.isMobile ? null : reservations[0],
       });
     });
   }
@@ -64,8 +78,7 @@ export default class App extends Component {
   }
 
   template() {
-    const { reservations } = this.state;
-    console.log('reservations : ', reservations);
+    const { reservations, focusReservation } = this.state;
 
     return `
       <header>
@@ -87,9 +100,13 @@ export default class App extends Component {
           </div>
 
           <!-- 예약 상세 -->
-          <div id="reservation-detail"></div>
+          ${
+            this.isMobile ? '' : `<div id="reservation-detail"></div>`
+          }
         </div>
       </div>
+
+      <div id="reservation-detail-modal" class="${focusReservation ? '' : 'none'}"></div>
     `;
   }
 }
