@@ -1,6 +1,6 @@
 import axios from 'axios';
 import Component from '@/core/Component';
-import ReservationCard from '@/components/ReservationCard';
+import ReservationCard from '@/components/ReservationCard/ReservationCard';
 
 export default class App extends Component {
   setup() {
