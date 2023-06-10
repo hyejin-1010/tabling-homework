@@ -1,5 +1,15 @@
+html, body, #app, main {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   background-color: #CED8E4;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 .ellipsis {

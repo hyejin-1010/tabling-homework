@@ -2,22 +2,29 @@ import axios from 'axios';
 import Component from '@/core/Component';
 import ReservationCard from '@/components/ReservationCard/ReservationCard';
 
+import './Main.scss';
+
 export default class App extends Component {
   setup() {
-    this.setState({ reservations: [] });
+    this.setState({
+      reservations: [],
+      focusReservation: null,
+    });
     this.getReservations();
   }
 
   didUpdate() {
-    const { reservations } = this.state;
+    const { reservations, focusReservation } = this.state;
     for (const reservation of reservations) {
       const $reservationCard = this.target.querySelector(`[data-component="reservation-card"][reservation-id="${reservation.id}"]`);
       new ReservationCard($reservationCard, {
         reservation,
-        onClick: this.onClickReservationCard,
+        onClick: this.onClickReservationCard.bind(this),
         onSeat: this.onClickSeatBtn.bind(this),
         onDone: this.onClickDoneBtn.bind(this),
       });
+    }
+    if (focusReservation) {
     }
   }
 
@@ -25,12 +32,16 @@ export default class App extends Component {
   getReservations() {
     axios.get(`https://frontend.tabling.co.kr/v1/store/9533/reservations`).then((resp) => {
       // TODO: state 가 done이면 미표출
-      this.setState({ reservations: resp.data.reservations });
+      const { reservations } = resp.data;
+      this.setState({
+        reservations,
+        focusReservation: reservations[0], // TODO:
+      });
     });
   }
 
   onClickReservationCard(reservation) {
-    console.log('click reservation', reservation);
+    this.setState({ focusReservation: reservation });
   }
 
   onClickSeatBtn(id) {
@@ -58,27 +69,23 @@ export default class App extends Component {
         <h1>예약 목록</h1>
       </header>
       <div class="container">
-        <!-- 예약 목록 -->
-        <div>
-          ${
-            reservations.map(({ id }) => {
-              return `
-                <div data-component="reservation-card" reservation-id="${id}"></div>
-              `;
-            }).join('')
-          }
-        </div>
+        <div class="table">
+          <!-- 예약 목록 -->
+          <div id="reservation-list">
+            <div class="scroll">
+              ${
+                reservations.map(({ id }) => {
+                  return `
+                    <div data-component="reservation-card" reservation-id="${id}"></div>
+                  `;
+                }).join('')
+              }
+            </div>
+          </div>
 
-        <!--
-          예약 상세
-          - 예약 아이템을 클릭하면 예약 상세(예약 및 고객 정보)에 관한 데이터를 표출한다.
-            - Desktop은 오른쪽 예약 상세에 표출 (초기 예약 상태는 첫 번째 예약 아이템을 표출)
-            - Mobile은 예약 상세 팝업에 표출 (팝업 닫기 / dim 영역 터치 시 팝업 종료)
-              - 파업 표출 시, slide-up으로 fade-in 애니메이션 처리
-            - 고객 메모 및 요청 사항 데이터는 최대 3행으로 표출
-              - 그 외 데이터는 1행으로 표출
-        -->
-        <div></div>
+          <!-- 예약 상세 -->
+          <div id="reservation-detail"></div>
+        </div>
       </div>
     `;
   }

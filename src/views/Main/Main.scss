@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    > div {
+      display: table-cell;
+    }
+  }
+
+  #reservation-list {
+    position: relative;
+    margin: 0 10px;
+    .scroll {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow-y: scroll;
+      padding: 0 12px;
+    }
+  }
+  #reservation-detail {
+    width: 350px;
+  }
+}
