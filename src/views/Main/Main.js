@@ -12,7 +12,12 @@ export default class App extends Component {
     const { reservations } = this.state;
     for (const reservation of reservations) {
       const $reservationCard = this.target.querySelector(`[data-component="reservation-card"][reservation-id="${reservation.id}"]`);
-      new ReservationCard($reservationCard, { reservation });
+      new ReservationCard($reservationCard, {
+        reservation,
+        onClick: this.onClickReservationCard,
+        onSeat: this.onClickSeatBtn.bind(this),
+        onDone: this.onClickDoneBtn.bind(this),
+      });
     }
   }
 
@@ -22,6 +27,26 @@ export default class App extends Component {
       // TODO: state 가 done이면 미표출
       this.setState({ reservations: resp.data.reservations });
     });
+  }
+
+  onClickReservationCard(reservation) {
+    console.log('click reservation', reservation);
+  }
+
+  onClickSeatBtn(id) {
+    const reservations = [...this.state.reservations];
+    const foundIndex = reservations.findIndex((reservation) => reservation.id === id);
+    if (foundIndex === -1) { return; }
+    reservations[foundIndex] = Object.assign({}, reservations[foundIndex], { status: 'seated' });
+    this.setState({ reservations });
+  }
+
+  onClickDoneBtn(id) {
+    const reservations = [...this.state.reservations];
+    const foundIndex = reservations.findIndex((reservation) => reservation.id === id);
+    if (foundIndex === -1) { return; }
+    reservations.splice(foundIndex, 1);
+    this.setState({ reservations });
   }
 
   template() {
