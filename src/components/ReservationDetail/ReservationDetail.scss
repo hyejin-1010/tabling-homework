@@ -1,0 +1,27 @@
+.reservation-detail {
+  height: calc(100% - 3rem);
+  margin: 0.75rem 0;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.info-box {
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 0.75rem;
+  label {
+    color: rgb(68, 68, 68);
+  }
+  &.request {
+    margin-top: 3rem;
+  }
+}

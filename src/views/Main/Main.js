@@ -1,6 +1,7 @@
 import axios from 'axios';
 import Component from '@/core/Component';
 import ReservationCard from '@/components/ReservationCard/ReservationCard';
+import ReservationDetail from '@/components/ReservationDetail/ReservationDetail';
 
 import './Main.scss';
 
@@ -25,6 +26,8 @@ export default class App extends Component {
       });
     }
     if (focusReservation) {
+      const $reservationDetail = this.target.querySelector('#reservation-detail');
+      new ReservationDetail($reservationDetail, { reservation: focusReservation });
     }
   }
 
