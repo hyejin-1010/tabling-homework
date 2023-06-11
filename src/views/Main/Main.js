@@ -83,11 +83,14 @@ export default class App extends Component {
 
   // 착석 버튼 클릭한 경우, 해당 예약의 상태를 'seated'로 바꾼다.
   onClickSeatBtn(id) {
+    let { focusReservation } = this.state;
     const reservations = [...this.state.reservations];
     const foundIndex = reservations.findIndex((reservation) => reservation.id === id);
     if (foundIndex === -1) { return; }
-    reservations[foundIndex] = Object.assign({}, reservations[foundIndex], { status: 'seated' });
-    this.setState({ reservations });
+    const reservation = Object.assign({}, reservations[foundIndex], { status: 'seated' });
+    reservations[foundIndex] = reservation;
+    if (focusReservation?.id === id) { focusReservation = reservation; }
+    this.setState({ reservations, focusReservation });
   }
 
   // 퇴석 버튼 클릭한 경우, 해당 예약을 예약목록에서 지운다.
