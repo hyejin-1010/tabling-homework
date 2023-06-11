@@ -2,10 +2,13 @@ import Component from '@/core/Component';
 
 import './Modal.scss';
 
+/**
+ * @property {string} content modal-body에 들어갈 html string
+ * @property {function} [close] dimmed 영역 혹은 닫기 버튼 클릭 시 호출되는 함수
+ */
 export default class Modal extends Component {
   didMount() {
     const { content, close } = this.props;
-    if (!content) { return; }
     const $body = this.target.querySelector('.modal-body');
     $body.innerHTML = content;
 

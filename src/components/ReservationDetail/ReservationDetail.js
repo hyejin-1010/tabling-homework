@@ -5,7 +5,7 @@ import translate from '@/utils/translate';
 import './ReservationDetail.scss';
 
 /**
- * @property {*} reservation 예약 정보
+ * @property {object} reservation 예약 정보
  */
 export default class ReservationDetail extends Component {
 
@@ -42,20 +42,20 @@ export default class ReservationDetail extends Component {
           <div>
             <div class="info-item">
               <label>고객 성명</label>
-              <div>${reservation.customer.name}</div>
+              <div>${reservation.customer.name || '-'}</div>
             </div>
             <div class="info-item">
               <label>고객 등급</label>
-              <div>${reservation.customer.level}</div>
+              <div>${reservation.customer.level || '-'}</div>
             </div>
             <div class="info-item">
               <label>고객 메모</label>
-              <div class="multiline-ellipsis">${reservation.customer.memo}</div>
+              <div class="multiline-ellipsis">${reservation.customer.memo || '-'}</div>
             </div>
 
             <div class="info-item request">
               <label>요청사항</label>
-              <div class="multiline-ellipsis">${reservation.customer.request}</div>
+              <div class="multiline-ellipsis">${reservation.customer.request || '-'}</div>
             </div>
           </div>
         </div>

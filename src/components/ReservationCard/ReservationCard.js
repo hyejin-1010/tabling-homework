@@ -5,13 +5,14 @@ import translate from '@/utils/translate';
 import './ReservationCard.scss';
 
 /**
- * @property {*} reservation 예약 정보
- * @property {Function} onClick 컴포넌트 클릭 시
- * @property {Function} onSeat 착석 버튼 클릭 시
- * @property {Function} onDone 퇴석 버튼 클릭 시
+ * @property {object} reservation 예약 정보
+ * @property {function(reservation: object)} [onClick] 컴포넌트 클릭 시
+ * @property {function(id: string)} [onSeat] 착석 버튼 클릭 시
+ * @property {function(id: string)} [onDone] 퇴석 버튼 클릭 시
  */
 export default class ReservationCard extends Component {
   didMount() {
+    // 클릭 event 연결
     const { reservation, onClick, onSeat, onDone } = this.props;
     this.addEvent('click', '.card-content, .card-status', function() {
       if (onClick) { onClick(reservation); }
