@@ -1,12 +1,8 @@
 import Component from '@/core/Component';
 import timeFormat from '@/utils/timeFormat';
+import translate from '@/utils/translate';
 
 import './ReservationCard.scss';
-
-const statusText = {
-  reserved: '예약',
-  seated: '착석 중'
-}
 
 export default class ReservationCard extends Component {
   didMount() {
@@ -32,7 +28,7 @@ export default class ReservationCard extends Component {
           <!-- 예약 시간 -->
           <div>${timeFormat(reservation.timeReserved)}</div>
           <!-- 예약 상태 -->
-          <div class="${reservation.status}">${statusText[reservation.status]}</div>
+          <div class="${reservation.status}">${translate[reservation.status]}</div>
         </div>
 
         <div class="card-content">

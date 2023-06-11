@@ -1,4 +1,5 @@
 import Component from '@/core/Component';
+import translate from '@/utils/translate';
 
 import './ReservationDetail.scss';
 
@@ -23,7 +24,7 @@ export default class ReservationDetail extends Component {
           <h3>예약 정보</h3>
           <div class="info-item">
             <label>예약 상태</label>
-            <div>${reservation.status}</div>
+            <div>${translate[reservation.status]}</div>
           </div>
           <div class="info-item">
             <label>예약 시간</label>
