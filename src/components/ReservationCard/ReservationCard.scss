@@ -1,4 +1,5 @@
 @import '@/styles/colors.scss';
+@import '@/styles/variables.scss';
 
 .card {
   display: grid;
@@ -31,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: $font-size-sm;
   .card-visitors {
     margin: 0.5rem 0;
   }
