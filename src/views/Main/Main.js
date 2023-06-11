@@ -11,6 +11,7 @@ export default class App extends Component {
     this.setState({
       reservations: [],
       focusReservation: null,
+      scrollTop: 0,
     });
     this.getReservations();
   }
@@ -18,7 +19,7 @@ export default class App extends Component {
   get isMobile() { return screen.width < 1024; }
 
   didUpdate() {
-    const { reservations, focusReservation } = this.state;
+    const { reservations, focusReservation, scrollTop } = this.state;
     for (const reservation of reservations) {
       const $reservationCard = this.target.querySelector(`[data-component="reservation-card"][reservation-id="${reservation.id}"]`);
       new ReservationCard($reservationCard, {
@@ -28,6 +29,9 @@ export default class App extends Component {
         onDone: this.onClickDoneBtn.bind(this),
       });
     }
+
+    const $scrollDiv = this.target.querySelector('.scroll');
+    $scrollDiv.scrollTo(0, scrollTop);
 
     if (this.isMobile) {
       const $modal = this.target.querySelector('#reservation-detail-modal');
@@ -48,17 +52,17 @@ export default class App extends Component {
   // 서버에서 reservations 를 가져오는 함수
   getReservations() {
     axios.get(`https://frontend.tabling.co.kr/v1/store/9533/reservations`).then((resp) => {
-      // TODO: state 가 done이면 미표출
       const { reservations } = resp.data;
       this.setState({
-        reservations,
+        reservations: reservations.filter((reservation) => reservation.status !== 'done'),
         focusReservation: this.isMobile ? null : reservations[0],
       });
     });
   }
 
-  onClickReservationCard(reservation) {
-    this.setState({ focusReservation: reservation });
+  onClickReservationCard(focusReservation) {
+    const $scrollDiv = this.target.querySelector('.scroll');
+    this.setState({ focusReservation, scrollTop: $scrollDiv.scrollTop });
   }
 
   onClickSeatBtn(id) {
