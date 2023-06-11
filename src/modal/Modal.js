@@ -16,7 +16,7 @@ export default class Modal extends Component {
 
   template() {
     return `
-      <div class="modal">
+      <div class="modal slide-up-fade-in">
         <div class="dimmed"></div>
         <div class="modal-body">
           Content
