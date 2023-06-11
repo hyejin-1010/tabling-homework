@@ -9,7 +9,7 @@ export default class Modal extends Component {
     const $body = this.target.querySelector('.modal-body');
     $body.innerHTML = content;
 
-    this.addEvent('click', '.dimmed', function() {
+    this.addEvent('click', '.dimmed, .modal-close-btn', function() {
       if (close) { close(); }
     });
   }
