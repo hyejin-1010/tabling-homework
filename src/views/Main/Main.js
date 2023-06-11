@@ -72,7 +72,7 @@ export default class App extends Component {
         reservations: reservations.filter((reservation) => reservation.status !== 'done'),
         focusReservation: this.isMobile ? null : reservations[0],
       });
-    });
+    }).catch((error) => { console.error(error); });
   }
 
   // 예약 목록에서 카드를 클릭한 경우

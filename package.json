@@ -4,7 +4,7 @@
   "description": "테이블링 사전과제 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --env=jsdom",
     "dev": "webpack serve --open",
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development"
@@ -15,10 +15,14 @@
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
+    "@types/jest": "^29.5.2",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "mini-css-extract-plugin": "^2.7.6",
     "sass": "^1.63.2",
     "sass-loader": "^13.3.1",
