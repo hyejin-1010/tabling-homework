@@ -4,23 +4,26 @@
 .card {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  margin: 0.75rem 0;
-  padding: 0.75rem 1rem;
+  margin: 0.85rem 0;
+  padding: 0.85rem 1rem;
   background: $white;
   border-radius: 10px;
 }
 
-.card-status, .card-action {
-  padding: 0.75rem;
+.card-left, .card-action {
+  padding: 0.85rem;
 }
 
-.card-status {
+.card-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  .status {
+    margin-top: 0.5rem;
+  }
   .reserved {
-    color: #3BB94C;
+    color: $green;
   }
   .seated {
     color: $primary;
@@ -47,6 +50,7 @@
     border: none;
     border-radius: 5px;
     color: $white;
+    font-size: $font-size-base;
     &.seated {
       background: $white;
       border: 1px solid $primary;
@@ -55,12 +59,16 @@
   }
 }
 
-// @media only screen and (max-width: 1024px) {
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
   .card {
     grid-template-columns: 1fr 2fr 1fr;
+    margin: 0.85rem 0;
+    padding: 0.85rem 0.25rem;
   }
-  .card-status, .card-action {
-    padding: 0.75rem;
+  .card-left, .card-action {
+    padding: 0.5rem;
+  }
+  .card-action .action-btn {
+    font-size: $font-size-sm;
   }
 }

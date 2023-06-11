@@ -4,6 +4,12 @@ import translate from '@/utils/translate';
 
 import './ReservationCard.scss';
 
+/**
+ * @property {*} reservation 예약 정보
+ * @property {Function} onClick 컴포넌트 클릭 시
+ * @property {Function} onSeat 착석 버튼 클릭 시
+ * @property {Function} onDone 퇴석 버튼 클릭 시
+ */
 export default class ReservationCard extends Component {
   didMount() {
     const { reservation, onClick, onSeat, onDone } = this.props;
@@ -24,27 +30,25 @@ export default class ReservationCard extends Component {
 
     return `
       <div class="card">
-        <div class="card-status">
+        <div class="card-left">
           <!-- 예약 시간 -->
           <div>${timeFormat(reservation.timeReserved)}</div>
           <!-- 예약 상태 -->
-          <div class="${reservation.status}">${translate[reservation.status]}</div>
+          <div class="${reservation.status} status">${translate[reservation.status]}</div>
         </div>
 
         <div class="card-content">
           <!-- 예약자명 및 테이블명 -->
           <div class="ellipsis">
             <span>${reservation.customer.name}</span>
-            -
-            <span>
-              ${reservation.tables.map((table) => table.name).join(', ')}
-            </span>
+            <span>-</span>
+            <span>${reservation.tables.map((table) => table.name).join(', ')}</span>
           </div>
 
           <!-- 방문자수 -->
           <div class="card-visitors">
-            성인 ${reservation.customer.adult}
-            아이 ${reservation.customer.child}
+            <span>성인 ${reservation.customer.adult}</span>
+            <span>아이 ${reservation.customer.child}</span>
           </div>
 
           <!-- 메뉴 -->
@@ -60,7 +64,7 @@ export default class ReservationCard extends Component {
         <!-- [착석] 또는 [퇴석] 버튼 -->
         <div class="card-action">
           <button id="action-btn" class="action-btn ${reservation.status}">
-            ${ reservation.status === 'reserved' ? '착석' : '퇴석' }
+            ${reservation.status === 'reserved' ? '착석' : '퇴석'}
           </button>
         </div>
       </div>
