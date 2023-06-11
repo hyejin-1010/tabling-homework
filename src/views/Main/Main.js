@@ -92,11 +92,13 @@ export default class App extends Component {
 
   // 퇴석 버튼 클릭한 경우, 해당 예약을 예약목록에서 지운다.
   onClickDoneBtn(id) {
+    let { focusReservation } = this.state;
     const reservations = [...this.state.reservations];
     const foundIndex = reservations.findIndex((reservation) => reservation.id === id);
     if (foundIndex === -1) { return; }
     reservations.splice(foundIndex, 1);
-    this.setState({ reservations });
+    if (focusReservation?.id === id) { focusReservation = reservations[0]; }
+    this.setState({ reservations, focusReservation });
   }
 
   template() {
