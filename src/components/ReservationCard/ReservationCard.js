@@ -14,7 +14,7 @@ export default class ReservationCard extends Component {
   didMount() {
     // 클릭 event 연결
     const { reservation, onClick, onSeat, onDone } = this.props;
-    this.addEvent('click', '.card-content, .card-status', function() {
+    this.addEvent('click', '.card-content, .card-left', function() {
       if (onClick) { onClick(reservation); }
     });
     this.addEvent('click', '#action-btn.reserved', function() {
