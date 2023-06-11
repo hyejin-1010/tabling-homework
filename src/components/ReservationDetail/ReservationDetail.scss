@@ -1,8 +1,10 @@
+@import '@/styles/colors.scss';
+
 .reservation-detail {
   height: calc(100% - 3rem);
   margin: 0.75rem 0;
   padding: 0.75rem 1.5rem;
-  background: white;
+  background: $white;
   border-radius: 10px;
 }
 
@@ -19,7 +21,7 @@ h3 {
   grid-template-columns: 1fr 2fr;
   margin-bottom: 0.75rem;
   label {
-    color: rgb(68, 68, 68);
+    color: $gray-400;
   }
   &.request {
     margin-top: 3rem;
