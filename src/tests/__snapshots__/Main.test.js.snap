@@ -1,0 +1,6249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main View Snapshot Test 예약 목록에서 착석 - onClickSeatBtn("63888899") 호출 1`] = `
+Main {
+  "props": {},
+  "state": {
+    "focusReservation": {
+      "customer": {
+        "adult": 2,
+        "child": 1,
+        "id": "200512254359",
+        "level": "VIP",
+        "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+        "name": "알베르트 아인슈타인",
+        "request": "-",
+        "timeVisitedLast": "2020-09-11 18:32:20",
+      },
+      "id": "53005895",
+      "menus": [
+        {
+          "id": "02110701",
+          "name": "봉골라 스파게티",
+          "qty": 1,
+        },
+        {
+          "id": "02090105",
+          "name": "파이브 치즈 피자",
+          "qty": 1,
+        },
+      ],
+      "status": "seated",
+      "tables": [
+        {
+          "floor": 1,
+          "id": 0,
+          "max": 4,
+          "min": 1,
+          "name": "1번 테이블",
+        },
+      ],
+      "timeRegistered": "2020-10-10 18:02:20",
+      "timeReserved": "2020-11-02 11:00:00",
+    },
+    "isMobile": true,
+    "reservations": [
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "200512254359",
+          "level": "VIP",
+          "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+          "name": "알베르트 아인슈타인",
+          "request": "-",
+          "timeVisitedLast": "2020-09-11 18:32:20",
+        },
+        "id": "53005895",
+        "menus": [
+          {
+            "id": "02110701",
+            "name": "봉골라 스파게티",
+            "qty": 1,
+          },
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 0,
+            "max": 4,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-10 18:02:20",
+        "timeReserved": "2020-11-02 11:00:00",
+      },
+      {
+        "customer": {
+          "adult": 6,
+          "child": 0,
+          "id": "202012250922",
+          "level": "단골",
+          "memo": "1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.",
+          "name": "아이작 뉴턴",
+          "request": "사과나무",
+          "timeVisitedLast": "2020-09-03 17:02:20",
+        },
+        "id": "64500096",
+        "menus": [
+          {
+            "id": "02090209",
+            "name": "Grilled 스테이크",
+            "qty": 1,
+          },
+          {
+            "id": "02110701",
+            "name": "문어와 마늘종 스파게티니",
+            "qty": 1,
+          },
+          {
+            "id": "02110108",
+            "name": "프로슈토와 루꼴라 샐러드",
+            "qty": 2,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+          {
+            "id": "09090100",
+            "name": "콩스가르드 샤도네이",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+          {
+            "floor": 2,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+          {
+            "floor": 3,
+            "id": 3,
+            "max": 2,
+            "min": 1,
+            "name": "3번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 13:02:20",
+        "timeReserved": "2020-11-02 11:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "201601074459",
+          "level": "",
+          "memo": "폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.",
+          "name": "Albert Abraham Michelson",
+          "request": "빛과 소금",
+          "timeVisitedLast": "2020-08-01 12:02:10",
+        },
+        "id": "60222897",
+        "menus": [
+          {
+            "id": "02099999",
+            "name": "프리미엄 사이드",
+            "qty": 1,
+          },
+          {
+            "id": "02090404",
+            "name": "클래식 시저 샐러드",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 7,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 22:12:30",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "199904070059",
+          "level": "블랙리스트",
+          "memo": "!@#$%^&*(!@#$!$#%%$#^#&",
+          "name": "아무개1",
+          "request": "",
+          "timeVisitedLast": "2020-11-02 10:23:11",
+        },
+        "id": "00888898",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "쉬림프 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "done",
+        "tables": [
+          {
+            "floor": 3,
+            "id": 32,
+            "max": 4,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-11-02 09:56:09",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 0,
+          "id": "201701080059",
+          "level": "",
+          "memo": "",
+          "name": "갈릴레오 갈릴레이",
+          "request": "",
+          "timeVisitedLast": "2020-05-04 19:06:00",
+        },
+        "id": "63888899",
+        "menus": [
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 2,
+            "id": 27,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 22:56:09",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201905050190",
+          "level": "지인",
+          "memo": "",
+          "name": "에르빈 루돌프 요제프 알렉산더 슈뢰딩거",
+          "request": "",
+          "timeVisitedLast": "2020-10-01 19:12:20",
+        },
+        "id": "64399933",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 6,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-09 16:02:20",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201103130059",
+          "level": "지인",
+          "memo": "마리아 스크워도프스카 퀴리(폴란드어: Maria Skłodowska-Curie, 1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다. 본명은 마리아 살로메아 스크워도프스카(폴란드어: Maria Salomea Skłodowska)이고, 프랑스식 이름은 마리 퀴리(프랑스어: Marie Curie)이다.",
+          "name": "마리 퀴리",
+          "request": "방사능, 노벨상, 물리학상, 화학상",
+          "timeVisitedLast": "2020-09-30 18:02:20",
+        },
+        "id": "59474900",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "씨푸드 퐁듀",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "아마트리치아나",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "찰스 하이직, 브뤼 리저브",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "6번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 16:32:20",
+        "timeReserved": "2020-11-02 13:30:00",
+      },
+    ],
+    "scrollTop": 0,
+  },
+  "target": <div>
+    
+      
+    <header>
+      
+        
+      <h1>
+        예약 목록
+      </h1>
+      
+      
+    </header>
+    
+      
+    <div
+      class="container"
+    >
+      
+        
+      <div
+        class="table"
+      >
+        
+          
+        <!-- 예약 목록 -->
+        
+          
+        <div
+          id="reservation-list"
+        >
+          
+            
+          <div
+            class="scroll"
+          >
+            
+              
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="53005895"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      알베르트 아인슈타인
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            봉골라 스파게티(1), 파이브 치즈 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64500096"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아이작 뉴턴
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블, 2번 테이블, 3번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 6
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            Grilled 스테이크(1), 문어와 마늘종 스파게티니(1), 프로슈토와 루꼴라 샐러드(2), 흰살생선과 안초비 오일 파스타(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1), 콩스가르드 샤도네이(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="60222897"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      Albert Abraham Michelson
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            프리미엄 사이드(1), 클래식 시저 샐러드(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="00888898"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="done status"
+                  >
+                    undefined
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아무개1
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      2번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            쉬림프 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn done"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="63888899"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      갈릴레오 갈릴레이
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            구운문어와 라디치오(1), 흰살생선과 안초비 오일 파스타(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64399933"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      에르빈 루돌프 요제프 알렉산더 슈뢰딩거
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            파이브 치즈 피자(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="59474900"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      마리 퀴리
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블, 6번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            씨푸드 퐁듀(1), 아마트리치아나(1), 찰스 하이직, 브뤼 리저브(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+            
+          </div>
+          
+          
+        </div>
+        
+
+          
+        <!-- 예약 상세 -->
+        
+          
+        
+      </div>
+      
+      
+    </div>
+    
+
+      
+    <div
+      class=""
+      id="reservation-detail-modal"
+    >
+      
+      
+      <div
+        class="modal slide-up-fade-in"
+      >
+        
+        
+        <div
+          class="dimmed"
+        />
+        
+        
+        <div
+          class="modal-body"
+        >
+          <div
+            id="reservation-detail"
+          >
+            
+      
+            <div
+              class="reservation-detail"
+            >
+              
+        
+              <!-- 예약 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  예약 정보
+                </h3>
+                
+          
+                <!-- 닫기 버튼 -->
+                
+          
+                <span
+                  class="modal-close-btn"
+                >
+                  닫기
+                </span>
+                
+
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 상태
+                  </label>
+                  
+            
+                  <div>
+                    착석 중
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 시간
+                  </label>
+                  
+            
+                  <div>
+                    11:00
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    접수 시간
+                  </label>
+                  
+            
+                  <div>
+                    18:02
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+
+        
+              <!-- 고객 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  고객 정보
+                </h3>
+                
+          
+                <div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 성명
+                    </label>
+                    
+              
+                    <div>
+                      알베르트 아인슈타인
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 등급
+                    </label>
+                    
+              
+                    <div>
+                      VIP
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 메모
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.
+                    </div>
+                    
+            
+                  </div>
+                  
+
+            
+                  <div
+                    class="info-item request"
+                  >
+                    
+              
+                    <label>
+                      요청사항
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      -
+                    </div>
+                    
+            
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+      
+            </div>
+            
+    
+          </div>
+        </div>
+        
+      
+      </div>
+      
+    
+    </div>
+    
+    
+  </div>,
+}
+`;
+
+exports[`Main View Snapshot Test 예약 목록에서 카드 클릭 - onClickReservationCard("63888899") 호출 1`] = `
+Main {
+  "props": {},
+  "state": {
+    "focusReservation": {
+      "customer": {
+        "adult": 2,
+        "child": 1,
+        "id": "201601074459",
+        "level": "",
+        "memo": "폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.",
+        "name": "Albert Abraham Michelson",
+        "request": "빛과 소금",
+        "timeVisitedLast": "2020-08-01 12:02:10",
+      },
+      "id": "60222897",
+      "menus": [
+        {
+          "id": "02099999",
+          "name": "프리미엄 사이드",
+          "qty": 1,
+        },
+        {
+          "id": "02090404",
+          "name": "클래식 시저 샐러드",
+          "qty": 1,
+        },
+      ],
+      "status": "seated",
+      "tables": [
+        {
+          "floor": 1,
+          "id": 7,
+          "max": 4,
+          "min": 1,
+          "name": "7번 테이블",
+        },
+      ],
+      "timeRegistered": "2020-10-01 22:12:30",
+      "timeReserved": "2020-11-02 12:30:00",
+    },
+    "isMobile": true,
+    "reservations": [
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "200512254359",
+          "level": "VIP",
+          "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+          "name": "알베르트 아인슈타인",
+          "request": "-",
+          "timeVisitedLast": "2020-09-11 18:32:20",
+        },
+        "id": "53005895",
+        "menus": [
+          {
+            "id": "02110701",
+            "name": "봉골라 스파게티",
+            "qty": 1,
+          },
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 0,
+            "max": 4,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-10 18:02:20",
+        "timeReserved": "2020-11-02 11:00:00",
+      },
+      {
+        "customer": {
+          "adult": 6,
+          "child": 0,
+          "id": "202012250922",
+          "level": "단골",
+          "memo": "1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.",
+          "name": "아이작 뉴턴",
+          "request": "사과나무",
+          "timeVisitedLast": "2020-09-03 17:02:20",
+        },
+        "id": "64500096",
+        "menus": [
+          {
+            "id": "02090209",
+            "name": "Grilled 스테이크",
+            "qty": 1,
+          },
+          {
+            "id": "02110701",
+            "name": "문어와 마늘종 스파게티니",
+            "qty": 1,
+          },
+          {
+            "id": "02110108",
+            "name": "프로슈토와 루꼴라 샐러드",
+            "qty": 2,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+          {
+            "id": "09090100",
+            "name": "콩스가르드 샤도네이",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+          {
+            "floor": 2,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+          {
+            "floor": 3,
+            "id": 3,
+            "max": 2,
+            "min": 1,
+            "name": "3번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 13:02:20",
+        "timeReserved": "2020-11-02 11:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "201601074459",
+          "level": "",
+          "memo": "폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.",
+          "name": "Albert Abraham Michelson",
+          "request": "빛과 소금",
+          "timeVisitedLast": "2020-08-01 12:02:10",
+        },
+        "id": "60222897",
+        "menus": [
+          {
+            "id": "02099999",
+            "name": "프리미엄 사이드",
+            "qty": 1,
+          },
+          {
+            "id": "02090404",
+            "name": "클래식 시저 샐러드",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 7,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 22:12:30",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "199904070059",
+          "level": "블랙리스트",
+          "memo": "!@#$%^&*(!@#$!$#%%$#^#&",
+          "name": "아무개1",
+          "request": "",
+          "timeVisitedLast": "2020-11-02 10:23:11",
+        },
+        "id": "00888898",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "쉬림프 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "done",
+        "tables": [
+          {
+            "floor": 3,
+            "id": 32,
+            "max": 4,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-11-02 09:56:09",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 0,
+          "id": "201701080059",
+          "level": "",
+          "memo": "",
+          "name": "갈릴레오 갈릴레이",
+          "request": "",
+          "timeVisitedLast": "2020-05-04 19:06:00",
+        },
+        "id": "63888899",
+        "menus": [
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 2,
+            "id": 27,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 22:56:09",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201905050190",
+          "level": "지인",
+          "memo": "",
+          "name": "에르빈 루돌프 요제프 알렉산더 슈뢰딩거",
+          "request": "",
+          "timeVisitedLast": "2020-10-01 19:12:20",
+        },
+        "id": "64399933",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 6,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-09 16:02:20",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201103130059",
+          "level": "지인",
+          "memo": "마리아 스크워도프스카 퀴리(폴란드어: Maria Skłodowska-Curie, 1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다. 본명은 마리아 살로메아 스크워도프스카(폴란드어: Maria Salomea Skłodowska)이고, 프랑스식 이름은 마리 퀴리(프랑스어: Marie Curie)이다.",
+          "name": "마리 퀴리",
+          "request": "방사능, 노벨상, 물리학상, 화학상",
+          "timeVisitedLast": "2020-09-30 18:02:20",
+        },
+        "id": "59474900",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "씨푸드 퐁듀",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "아마트리치아나",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "찰스 하이직, 브뤼 리저브",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "6번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 16:32:20",
+        "timeReserved": "2020-11-02 13:30:00",
+      },
+    ],
+    "scrollTop": 0,
+  },
+  "target": <div>
+    
+      
+    <header>
+      
+        
+      <h1>
+        예약 목록
+      </h1>
+      
+      
+    </header>
+    
+      
+    <div
+      class="container"
+    >
+      
+        
+      <div
+        class="table"
+      >
+        
+          
+        <!-- 예약 목록 -->
+        
+          
+        <div
+          id="reservation-list"
+        >
+          
+            
+          <div
+            class="scroll"
+          >
+            
+              
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="53005895"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      알베르트 아인슈타인
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            봉골라 스파게티(1), 파이브 치즈 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64500096"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아이작 뉴턴
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블, 2번 테이블, 3번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 6
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            Grilled 스테이크(1), 문어와 마늘종 스파게티니(1), 프로슈토와 루꼴라 샐러드(2), 흰살생선과 안초비 오일 파스타(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1), 콩스가르드 샤도네이(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="60222897"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      Albert Abraham Michelson
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            프리미엄 사이드(1), 클래식 시저 샐러드(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="00888898"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="done status"
+                  >
+                    undefined
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아무개1
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      2번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            쉬림프 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn done"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="63888899"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      갈릴레오 갈릴레이
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            구운문어와 라디치오(1), 흰살생선과 안초비 오일 파스타(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64399933"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      에르빈 루돌프 요제프 알렉산더 슈뢰딩거
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            파이브 치즈 피자(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="59474900"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      마리 퀴리
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블, 6번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            씨푸드 퐁듀(1), 아마트리치아나(1), 찰스 하이직, 브뤼 리저브(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+            
+          </div>
+          
+          
+        </div>
+        
+
+          
+        <!-- 예약 상세 -->
+        
+          
+        
+      </div>
+      
+      
+    </div>
+    
+
+      
+    <div
+      class=""
+      id="reservation-detail-modal"
+    >
+      
+      
+      <div
+        class="modal slide-up-fade-in"
+      >
+        
+        
+        <div
+          class="dimmed"
+        />
+        
+        
+        <div
+          class="modal-body"
+        >
+          <div
+            id="reservation-detail"
+          >
+            
+      
+            <div
+              class="reservation-detail"
+            >
+              
+        
+              <!-- 예약 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  예약 정보
+                </h3>
+                
+          
+                <!-- 닫기 버튼 -->
+                
+          
+                <span
+                  class="modal-close-btn"
+                >
+                  닫기
+                </span>
+                
+
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 상태
+                  </label>
+                  
+            
+                  <div>
+                    착석 중
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 시간
+                  </label>
+                  
+            
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    접수 시간
+                  </label>
+                  
+            
+                  <div>
+                    22:12
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+
+        
+              <!-- 고객 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  고객 정보
+                </h3>
+                
+          
+                <div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 성명
+                    </label>
+                    
+              
+                    <div>
+                      Albert Abraham Michelson
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 등급
+                    </label>
+                    
+              
+                    <div>
+                      -
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 메모
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.
+                    </div>
+                    
+            
+                  </div>
+                  
+
+            
+                  <div
+                    class="info-item request"
+                  >
+                    
+              
+                    <label>
+                      요청사항
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      빛과 소금
+                    </div>
+                    
+            
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+      
+            </div>
+            
+    
+          </div>
+        </div>
+        
+      
+      </div>
+      
+    
+    </div>
+    
+    
+  </div>,
+}
+`;
+
+exports[`Main View Snapshot Test 예약 목록에서 퇴석 - onClickDoneBtn("53005895") 호출 1`] = `
+Main {
+  "props": {},
+  "state": {
+    "focusReservation": {
+      "customer": {
+        "adult": 6,
+        "child": 0,
+        "id": "202012250922",
+        "level": "단골",
+        "memo": "1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.",
+        "name": "아이작 뉴턴",
+        "request": "사과나무",
+        "timeVisitedLast": "2020-09-03 17:02:20",
+      },
+      "id": "64500096",
+      "menus": [
+        {
+          "id": "02090209",
+          "name": "Grilled 스테이크",
+          "qty": 1,
+        },
+        {
+          "id": "02110701",
+          "name": "문어와 마늘종 스파게티니",
+          "qty": 1,
+        },
+        {
+          "id": "02110108",
+          "name": "프로슈토와 루꼴라 샐러드",
+          "qty": 2,
+        },
+        {
+          "id": "02110105",
+          "name": "흰살생선과 안초비 오일 파스타",
+          "qty": 1,
+        },
+        {
+          "id": "02110104",
+          "name": "구운문어와 라디치오",
+          "qty": 1,
+        },
+        {
+          "id": "09010300",
+          "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+          "qty": 1,
+        },
+        {
+          "id": "09090100",
+          "name": "콩스가르드 샤도네이",
+          "qty": 1,
+        },
+      ],
+      "status": "seated",
+      "tables": [
+        {
+          "floor": 1,
+          "id": 3,
+          "max": 3,
+          "min": 1,
+          "name": "1번 테이블",
+        },
+        {
+          "floor": 2,
+          "id": 3,
+          "max": 3,
+          "min": 1,
+          "name": "2번 테이블",
+        },
+        {
+          "floor": 3,
+          "id": 3,
+          "max": 2,
+          "min": 1,
+          "name": "3번 테이블",
+        },
+      ],
+      "timeRegistered": "2020-10-02 13:02:20",
+      "timeReserved": "2020-11-02 11:30:00",
+    },
+    "isMobile": true,
+    "reservations": [
+      {
+        "customer": {
+          "adult": 6,
+          "child": 0,
+          "id": "202012250922",
+          "level": "단골",
+          "memo": "1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.",
+          "name": "아이작 뉴턴",
+          "request": "사과나무",
+          "timeVisitedLast": "2020-09-03 17:02:20",
+        },
+        "id": "64500096",
+        "menus": [
+          {
+            "id": "02090209",
+            "name": "Grilled 스테이크",
+            "qty": 1,
+          },
+          {
+            "id": "02110701",
+            "name": "문어와 마늘종 스파게티니",
+            "qty": 1,
+          },
+          {
+            "id": "02110108",
+            "name": "프로슈토와 루꼴라 샐러드",
+            "qty": 2,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+          {
+            "id": "09090100",
+            "name": "콩스가르드 샤도네이",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+          {
+            "floor": 2,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+          {
+            "floor": 3,
+            "id": 3,
+            "max": 2,
+            "min": 1,
+            "name": "3번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 13:02:20",
+        "timeReserved": "2020-11-02 11:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "201601074459",
+          "level": "",
+          "memo": "폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.",
+          "name": "Albert Abraham Michelson",
+          "request": "빛과 소금",
+          "timeVisitedLast": "2020-08-01 12:02:10",
+        },
+        "id": "60222897",
+        "menus": [
+          {
+            "id": "02099999",
+            "name": "프리미엄 사이드",
+            "qty": 1,
+          },
+          {
+            "id": "02090404",
+            "name": "클래식 시저 샐러드",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 7,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 22:12:30",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "199904070059",
+          "level": "블랙리스트",
+          "memo": "!@#$%^&*(!@#$!$#%%$#^#&",
+          "name": "아무개1",
+          "request": "",
+          "timeVisitedLast": "2020-11-02 10:23:11",
+        },
+        "id": "00888898",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "쉬림프 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "done",
+        "tables": [
+          {
+            "floor": 3,
+            "id": 32,
+            "max": 4,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-11-02 09:56:09",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 0,
+          "id": "201701080059",
+          "level": "",
+          "memo": "",
+          "name": "갈릴레오 갈릴레이",
+          "request": "",
+          "timeVisitedLast": "2020-05-04 19:06:00",
+        },
+        "id": "63888899",
+        "menus": [
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 2,
+            "id": 27,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 22:56:09",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201905050190",
+          "level": "지인",
+          "memo": "",
+          "name": "에르빈 루돌프 요제프 알렉산더 슈뢰딩거",
+          "request": "",
+          "timeVisitedLast": "2020-10-01 19:12:20",
+        },
+        "id": "64399933",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 6,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-09 16:02:20",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201103130059",
+          "level": "지인",
+          "memo": "마리아 스크워도프스카 퀴리(폴란드어: Maria Skłodowska-Curie, 1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다. 본명은 마리아 살로메아 스크워도프스카(폴란드어: Maria Salomea Skłodowska)이고, 프랑스식 이름은 마리 퀴리(프랑스어: Marie Curie)이다.",
+          "name": "마리 퀴리",
+          "request": "방사능, 노벨상, 물리학상, 화학상",
+          "timeVisitedLast": "2020-09-30 18:02:20",
+        },
+        "id": "59474900",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "씨푸드 퐁듀",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "아마트리치아나",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "찰스 하이직, 브뤼 리저브",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "6번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 16:32:20",
+        "timeReserved": "2020-11-02 13:30:00",
+      },
+    ],
+    "scrollTop": 0,
+  },
+  "target": <div>
+    
+      
+    <header>
+      
+        
+      <h1>
+        예약 목록
+      </h1>
+      
+      
+    </header>
+    
+      
+    <div
+      class="container"
+    >
+      
+        
+      <div
+        class="table"
+      >
+        
+          
+        <!-- 예약 목록 -->
+        
+          
+        <div
+          id="reservation-list"
+        >
+          
+            
+          <div
+            class="scroll"
+          >
+            
+              
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64500096"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아이작 뉴턴
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블, 2번 테이블, 3번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 6
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            Grilled 스테이크(1), 문어와 마늘종 스파게티니(1), 프로슈토와 루꼴라 샐러드(2), 흰살생선과 안초비 오일 파스타(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1), 콩스가르드 샤도네이(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="60222897"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      Albert Abraham Michelson
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            프리미엄 사이드(1), 클래식 시저 샐러드(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="00888898"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="done status"
+                  >
+                    undefined
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아무개1
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      2번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            쉬림프 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn done"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="63888899"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      갈릴레오 갈릴레이
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            구운문어와 라디치오(1), 흰살생선과 안초비 오일 파스타(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64399933"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      에르빈 루돌프 요제프 알렉산더 슈뢰딩거
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            파이브 치즈 피자(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="59474900"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      마리 퀴리
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블, 6번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            씨푸드 퐁듀(1), 아마트리치아나(1), 찰스 하이직, 브뤼 리저브(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+            
+          </div>
+          
+          
+        </div>
+        
+
+          
+        <!-- 예약 상세 -->
+        
+          
+        
+      </div>
+      
+      
+    </div>
+    
+
+      
+    <div
+      class=""
+      id="reservation-detail-modal"
+    >
+      
+      
+      <div
+        class="modal slide-up-fade-in"
+      >
+        
+        
+        <div
+          class="dimmed"
+        />
+        
+        
+        <div
+          class="modal-body"
+        >
+          <div
+            id="reservation-detail"
+          >
+            
+      
+            <div
+              class="reservation-detail"
+            >
+              
+        
+              <!-- 예약 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  예약 정보
+                </h3>
+                
+          
+                <!-- 닫기 버튼 -->
+                
+          
+                <span
+                  class="modal-close-btn"
+                >
+                  닫기
+                </span>
+                
+
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 상태
+                  </label>
+                  
+            
+                  <div>
+                    착석 중
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 시간
+                  </label>
+                  
+            
+                  <div>
+                    11:30
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    접수 시간
+                  </label>
+                  
+            
+                  <div>
+                    13:02
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+
+        
+              <!-- 고객 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  고객 정보
+                </h3>
+                
+          
+                <div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 성명
+                    </label>
+                    
+              
+                    <div>
+                      아이작 뉴턴
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 등급
+                    </label>
+                    
+              
+                    <div>
+                      단골
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 메모
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.
+                    </div>
+                    
+            
+                  </div>
+                  
+
+            
+                  <div
+                    class="info-item request"
+                  >
+                    
+              
+                    <label>
+                      요청사항
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      사과나무
+                    </div>
+                    
+            
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+      
+            </div>
+            
+    
+          </div>
+        </div>
+        
+      
+      </div>
+      
+    
+    </div>
+    
+    
+  </div>,
+}
+`;
+
+exports[`Main View Snapshot Test 예약 목록을 가져와서 화면에 뿌리기 1`] = `
+Main {
+  "props": {},
+  "state": {
+    "focusReservation": {
+      "customer": {
+        "adult": 2,
+        "child": 1,
+        "id": "200512254359",
+        "level": "VIP",
+        "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+        "name": "알베르트 아인슈타인",
+        "request": "-",
+        "timeVisitedLast": "2020-09-11 18:32:20",
+      },
+      "id": "53005895",
+      "menus": [
+        {
+          "id": "02110701",
+          "name": "봉골라 스파게티",
+          "qty": 1,
+        },
+        {
+          "id": "02090105",
+          "name": "파이브 치즈 피자",
+          "qty": 1,
+        },
+      ],
+      "status": "seated",
+      "tables": [
+        {
+          "floor": 1,
+          "id": 0,
+          "max": 4,
+          "min": 1,
+          "name": "1번 테이블",
+        },
+      ],
+      "timeRegistered": "2020-10-10 18:02:20",
+      "timeReserved": "2020-11-02 11:00:00",
+    },
+    "isMobile": true,
+    "reservations": [
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "200512254359",
+          "level": "VIP",
+          "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+          "name": "알베르트 아인슈타인",
+          "request": "-",
+          "timeVisitedLast": "2020-09-11 18:32:20",
+        },
+        "id": "53005895",
+        "menus": [
+          {
+            "id": "02110701",
+            "name": "봉골라 스파게티",
+            "qty": 1,
+          },
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 0,
+            "max": 4,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-10 18:02:20",
+        "timeReserved": "2020-11-02 11:00:00",
+      },
+      {
+        "customer": {
+          "adult": 6,
+          "child": 0,
+          "id": "202012250922",
+          "level": "단골",
+          "memo": "1687년 발간된 자연철학의 수학적 원리(프린키피아, 'Principia')는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.
+ 이 저서에서 뉴턴은 다음 3세기 동안 우주의 과학적 관점에서 절대적이었던 만유인력과 3가지의 뉴턴 운동 법칙을 저술했다.",
+          "name": "아이작 뉴턴",
+          "request": "사과나무",
+          "timeVisitedLast": "2020-09-03 17:02:20",
+        },
+        "id": "64500096",
+        "menus": [
+          {
+            "id": "02090209",
+            "name": "Grilled 스테이크",
+            "qty": 1,
+          },
+          {
+            "id": "02110701",
+            "name": "문어와 마늘종 스파게티니",
+            "qty": 1,
+          },
+          {
+            "id": "02110108",
+            "name": "프로슈토와 루꼴라 샐러드",
+            "qty": 2,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+          {
+            "id": "09090100",
+            "name": "콩스가르드 샤도네이",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "1번 테이블",
+          },
+          {
+            "floor": 2,
+            "id": 3,
+            "max": 3,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+          {
+            "floor": 3,
+            "id": 3,
+            "max": 2,
+            "min": 1,
+            "name": "3번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 13:02:20",
+        "timeReserved": "2020-11-02 11:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 1,
+          "id": "201601074459",
+          "level": "",
+          "memo": "폴란드에서 유대인 집안에서 태어나 2세 되던 해 부모와 함께 미국으로 이주해 온다.
+ 1869년 애너폴리스의 해군 사관학교(United States Naval Academy)에 입학하여, 1873년 졸업하여 해군으로 복무하며, 해병학교의 물리학 강사가 된다.
+ 그 이후 유럽에서 2년간 공부하여 광속측정에 관심을 갖게 된다. 1881년 해군을 그만두고 유럽에서 유학하였다. 클리블랜드 대학 물리학 교수를 거쳐, 시카고 대학 교수를 지냈다.",
+          "name": "Albert Abraham Michelson",
+          "request": "빛과 소금",
+          "timeVisitedLast": "2020-08-01 12:02:10",
+        },
+        "id": "60222897",
+        "menus": [
+          {
+            "id": "02099999",
+            "name": "프리미엄 사이드",
+            "qty": 1,
+          },
+          {
+            "id": "02090404",
+            "name": "클래식 시저 샐러드",
+            "qty": 1,
+          },
+        ],
+        "status": "seated",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 7,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 22:12:30",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "199904070059",
+          "level": "블랙리스트",
+          "memo": "!@#$%^&*(!@#$!$#%%$#^#&",
+          "name": "아무개1",
+          "request": "",
+          "timeVisitedLast": "2020-11-02 10:23:11",
+        },
+        "id": "00888898",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "쉬림프 피자",
+            "qty": 1,
+          },
+        ],
+        "status": "done",
+        "tables": [
+          {
+            "floor": 3,
+            "id": 32,
+            "max": 4,
+            "min": 1,
+            "name": "2번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-11-02 09:56:09",
+        "timeReserved": "2020-11-02 12:30:00",
+      },
+      {
+        "customer": {
+          "adult": 2,
+          "child": 0,
+          "id": "201701080059",
+          "level": "",
+          "memo": "",
+          "name": "갈릴레오 갈릴레이",
+          "request": "",
+          "timeVisitedLast": "2020-05-04 19:06:00",
+        },
+        "id": "63888899",
+        "menus": [
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "02110105",
+            "name": "흰살생선과 안초비 오일 파스타",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 2,
+            "id": 27,
+            "max": 4,
+            "min": 1,
+            "name": "7번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-02 22:56:09",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201905050190",
+          "level": "지인",
+          "memo": "",
+          "name": "에르빈 루돌프 요제프 알렉산더 슈뢰딩거",
+          "request": "",
+          "timeVisitedLast": "2020-10-01 19:12:20",
+        },
+        "id": "64399933",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "파이브 치즈 피자",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "구운문어와 라디치오",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "돔 페리뇽 레이디 가가 리미티드 에디션 2010",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 6,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-09 16:02:20",
+        "timeReserved": "2020-11-02 13:00:00",
+      },
+      {
+        "customer": {
+          "adult": 3,
+          "child": 0,
+          "id": "201103130059",
+          "level": "지인",
+          "memo": "마리아 스크워도프스카 퀴리(폴란드어: Maria Skłodowska-Curie, 1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다. 본명은 마리아 살로메아 스크워도프스카(폴란드어: Maria Salomea Skłodowska)이고, 프랑스식 이름은 마리 퀴리(프랑스어: Marie Curie)이다.",
+          "name": "마리 퀴리",
+          "request": "방사능, 노벨상, 물리학상, 화학상",
+          "timeVisitedLast": "2020-09-30 18:02:20",
+        },
+        "id": "59474900",
+        "menus": [
+          {
+            "id": "02090105",
+            "name": "씨푸드 퐁듀",
+            "qty": 1,
+          },
+          {
+            "id": "02110104",
+            "name": "아마트리치아나",
+            "qty": 1,
+          },
+          {
+            "id": "09010300",
+            "name": "찰스 하이직, 브뤼 리저브",
+            "qty": 1,
+          },
+        ],
+        "status": "reserved",
+        "tables": [
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "5번 테이블",
+          },
+          {
+            "floor": 1,
+            "id": 5,
+            "max": 3,
+            "min": 1,
+            "name": "6번 테이블",
+          },
+        ],
+        "timeRegistered": "2020-10-01 16:32:20",
+        "timeReserved": "2020-11-02 13:30:00",
+      },
+    ],
+    "scrollTop": 0,
+  },
+  "target": <div>
+    
+      
+    <header>
+      
+        
+      <h1>
+        예약 목록
+      </h1>
+      
+      
+    </header>
+    
+      
+    <div
+      class="container"
+    >
+      
+        
+      <div
+        class="table"
+      >
+        
+          
+        <!-- 예약 목록 -->
+        
+          
+        <div
+          id="reservation-list"
+        >
+          
+            
+          <div
+            class="scroll"
+          >
+            
+              
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="53005895"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      알베르트 아인슈타인
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            봉골라 스파게티(1), 파이브 치즈 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64500096"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    11:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아이작 뉴턴
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      1번 테이블, 2번 테이블, 3번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 6
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            Grilled 스테이크(1), 문어와 마늘종 스파게티니(1), 프로슈토와 루꼴라 샐러드(2), 흰살생선과 안초비 오일 파스타(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1), 콩스가르드 샤도네이(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="60222897"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="seated status"
+                  >
+                    착석 중
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      Albert Abraham Michelson
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 1
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            프리미엄 사이드(1), 클래식 시저 샐러드(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn seated"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="00888898"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    12:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="done status"
+                  >
+                    undefined
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      아무개1
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      2번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            쉬림프 피자(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn done"
+                    id="action-btn"
+                  >
+                    
+            퇴석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="63888899"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      갈릴레오 갈릴레이
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      7번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 2
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            구운문어와 라디치오(1), 흰살생선과 안초비 오일 파스타(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="64399933"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:00
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      에르빈 루돌프 요제프 알렉산더 슈뢰딩거
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            파이브 치즈 피자(1), 구운문어와 라디치오(1), 돔 페리뇽 레이디 가가 리미티드 에디션 2010(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+                    
+            <div
+              data-component="reservation-card"
+              reservation-id="59474900"
+            >
+              
+      
+              <div
+                class="card"
+              >
+                
+        
+                <div
+                  class="card-left"
+                >
+                  
+          
+                  <!-- 예약 시간 -->
+                  
+          
+                  <div>
+                    13:30
+                  </div>
+                  
+          
+                  <!-- 예약 상태 -->
+                  
+          
+                  <div
+                    class="reserved status"
+                  >
+                    예약
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <div
+                  class="card-content"
+                >
+                  
+          
+                  <!-- 예약자명 및 테이블명 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            
+                    <span>
+                      마리 퀴리
+                    </span>
+                    
+            
+                    <span>
+                      -
+                    </span>
+                    
+            
+                    <span>
+                      5번 테이블, 6번 테이블
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 방문자수 -->
+                  
+          
+                  <div
+                    class="card-visitors"
+                  >
+                    
+            
+                    <span>
+                      성인 3
+                    </span>
+                    
+            
+                    <span>
+                      아이 0
+                    </span>
+                    
+          
+                  </div>
+                  
+
+          
+                  <!-- 메뉴 -->
+                  
+          
+                  <div
+                    class="ellipsis"
+                  >
+                    
+            씨푸드 퐁듀(1), 아마트리치아나(1), 찰스 하이직, 브뤼 리저브(1)
+          
+                  </div>
+                  
+        
+                </div>
+                
+
+        
+                <!-- [착석] 또는 [퇴석] 버튼 -->
+                
+        
+                <div
+                  class="card-action"
+                >
+                  
+          
+                  <button
+                    class="action-btn reserved"
+                    id="action-btn"
+                  >
+                    
+            착석
+          
+                  </button>
+                  
+        
+                </div>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+                  
+            
+          </div>
+          
+          
+        </div>
+        
+
+          
+        <!-- 예약 상세 -->
+        
+          
+        
+      </div>
+      
+      
+    </div>
+    
+
+      
+    <div
+      class=""
+      id="reservation-detail-modal"
+    >
+      
+      
+      <div
+        class="modal slide-up-fade-in"
+      >
+        
+        
+        <div
+          class="dimmed"
+        />
+        
+        
+        <div
+          class="modal-body"
+        >
+          <div
+            id="reservation-detail"
+          >
+            
+      
+            <div
+              class="reservation-detail"
+            >
+              
+        
+              <!-- 예약 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  예약 정보
+                </h3>
+                
+          
+                <!-- 닫기 버튼 -->
+                
+          
+                <span
+                  class="modal-close-btn"
+                >
+                  닫기
+                </span>
+                
+
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 상태
+                  </label>
+                  
+            
+                  <div>
+                    착석 중
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    예약 시간
+                  </label>
+                  
+            
+                  <div>
+                    11:00
+                  </div>
+                  
+          
+                </div>
+                
+          
+                <div
+                  class="info-item"
+                >
+                  
+            
+                  <label>
+                    접수 시간
+                  </label>
+                  
+            
+                  <div>
+                    18:02
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+
+        
+              <!-- 고객 정보 -->
+              
+        
+              <div
+                class="info-box"
+              >
+                
+          
+                <h3>
+                  고객 정보
+                </h3>
+                
+          
+                <div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 성명
+                    </label>
+                    
+              
+                    <div>
+                      알베르트 아인슈타인
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 등급
+                    </label>
+                    
+              
+                    <div>
+                      VIP
+                    </div>
+                    
+            
+                  </div>
+                  
+            
+                  <div
+                    class="info-item"
+                  >
+                    
+              
+                    <label>
+                      고객 메모
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.
+                    </div>
+                    
+            
+                  </div>
+                  
+
+            
+                  <div
+                    class="info-item request"
+                  >
+                    
+              
+                    <label>
+                      요청사항
+                    </label>
+                    
+              
+                    <div
+                      class="multiline-ellipsis"
+                    >
+                      -
+                    </div>
+                    
+            
+                  </div>
+                  
+          
+                </div>
+                
+        
+              </div>
+              
+      
+            </div>
+            
+    
+          </div>
+        </div>
+        
+      
+      </div>
+      
+    
+    </div>
+    
+    
+  </div>,
+}
+`;

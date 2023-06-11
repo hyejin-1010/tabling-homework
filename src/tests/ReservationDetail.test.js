@@ -7,7 +7,7 @@ describe('ReservationDetail Component Snapshot Test', () => {
     const htmlTag = document.getElementsByTagName('html')[0];
     const app = document.createElement('div');
     app.id = 'app';
-    htmlTag.appendChild(app)
+    htmlTag.appendChild(app);
     const element = document.createElement('div');
     expect(new ReservationDetail(element, { reservation: Data.reservation })).toMatchSnapshot();
   })

@@ -6,7 +6,7 @@ import Modal from '@/modal/Modal';
 
 import './Main.scss';
 
-export default class App extends Component {
+export default class Main extends Component {
   setup() {
     this.setState({
       reservations: [],       // 예약 목록
@@ -51,7 +51,8 @@ export default class App extends Component {
       });
     }
     // render가 되면 다시 화면을 그리기 때문에, scroll 위치를 저장해뒀다가 다시 해당 위치로 옮겨주어야 한다.
-    this.target.querySelector('.scroll')?.scrollTo(0, scrollTop);
+    const scrollDiv = this.target.querySelector('.scroll');
+    if (scrollDiv.scrollTo) { scrollDiv.scrollTo(0, scrollTop); }
   }
 
   // 예약 상세 component sync
