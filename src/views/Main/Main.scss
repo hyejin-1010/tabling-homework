@@ -42,6 +42,10 @@ header {
   display: none;
 }
 
+.none-reservation {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1023px) {
   header {
     display: flex;

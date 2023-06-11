@@ -121,13 +121,13 @@ export default class App extends Component {
                   return `
                     <div data-component="reservation-card" reservation-id="${id}"></div>
                   `;
-                }).join('')
+                }).join('') || `<h2 class="none-reservation">예약 목록이 없습니다.</h3>`
               }
             </div>
           </div>
 
           <!-- 예약 상세 -->
-          ${this.isMobile ? '' : `<div id="reservation-detail"></div>`}
+          ${this.isMobile || !focusReservation ? '' : `<div id="reservation-detail"></div>`}
         </div>
       </div>
 
