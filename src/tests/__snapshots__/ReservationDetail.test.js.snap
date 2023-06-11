@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationDetail Component Snapshot Test Basic Data 1`] = `
+ReservationDetail {
+  "props": {
+    "reservation": {
+      "customer": {
+        "adult": 2,
+        "child": 1,
+        "id": "200512254359",
+        "level": "VIP",
+        "memo": "독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+        "name": "알베르트 아인슈타인",
+        "request": "-",
+        "timeVisitedLast": "2020-09-11 18:32:20",
+      },
+      "id": "53005895",
+      "menus": [
+        {
+          "id": "02110701",
+          "name": "봉골라 스파게티",
+          "qty": 1,
+        },
+        {
+          "id": "02090105",
+          "name": "파이브 치즈 피자",
+          "qty": 1,
+        },
+      ],
+      "status": "seated",
+      "tables": [
+        {
+          "floor": 1,
+          "id": 0,
+          "max": 4,
+          "min": 1,
+          "name": "1번 테이블",
+        },
+      ],
+      "timeRegistered": "2020-10-10 18:02:20",
+      "timeReserved": "2020-11-02 11:00:00",
+    },
+  },
+  "state": {},
+  "target": <div>
+    
+      
+    <div
+      class="reservation-detail"
+    >
+      
+        
+      <!-- 예약 정보 -->
+      
+        
+      <div
+        class="info-box"
+      >
+        
+          
+        <h3>
+          예약 정보
+        </h3>
+        
+          
+        <!-- 닫기 버튼 -->
+        
+          
+        <span
+          class="modal-close-btn"
+        >
+          닫기
+        </span>
+        
+
+          
+        <div
+          class="info-item"
+        >
+          
+            
+          <label>
+            예약 상태
+          </label>
+          
+            
+          <div>
+            착석 중
+          </div>
+          
+          
+        </div>
+        
+          
+        <div
+          class="info-item"
+        >
+          
+            
+          <label>
+            예약 시간
+          </label>
+          
+            
+          <div>
+            11:00
+          </div>
+          
+          
+        </div>
+        
+          
+        <div
+          class="info-item"
+        >
+          
+            
+          <label>
+            접수 시간
+          </label>
+          
+            
+          <div>
+            18:02
+          </div>
+          
+          
+        </div>
+        
+        
+      </div>
+      
+
+        
+      <!-- 고객 정보 -->
+      
+        
+      <div
+        class="info-box"
+      >
+        
+          
+        <h3>
+          고객 정보
+        </h3>
+        
+          
+        <div>
+          
+            
+          <div
+            class="info-item"
+          >
+            
+              
+            <label>
+              고객 성명
+            </label>
+            
+              
+            <div>
+              알베르트 아인슈타인
+            </div>
+            
+            
+          </div>
+          
+            
+          <div
+            class="info-item"
+          >
+            
+              
+            <label>
+              고객 등급
+            </label>
+            
+              
+            <div>
+              VIP
+            </div>
+            
+            
+          </div>
+          
+            
+          <div
+            class="info-item"
+          >
+            
+              
+            <label>
+              고객 메모
+            </label>
+            
+              
+            <div
+              class="multiline-ellipsis"
+            >
+              독일 태생의 이론물리학자로서 역사상 가장 위대한 물리학자 중의 한명으로 널리 인정되고 있다. 상대성 이론을 개발한 것으로 가장 잘 알려져 있지만 양자역학 이론의 발전에도 중요한 공헌을 했다.
+            </div>
+            
+            
+          </div>
+          
+
+            
+          <div
+            class="info-item request"
+          >
+            
+              
+            <label>
+              요청사항
+            </label>
+            
+              
+            <div
+              class="multiline-ellipsis"
+            >
+              -
+            </div>
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+      </div>
+      
+      
+    </div>
+    
+    
+  </div>,
+}
+`;
