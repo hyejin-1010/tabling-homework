@@ -12,6 +12,7 @@ export default class App extends Component {
       reservations: [],       // 예약 목록
       focusReservation: null, // 현재 보고 있는 예약 상세
       scrollTop: 0,           // setState 직전 예약 목록 scrollTop value
+      isMobile: document.getElementById('app').clientWidth < 1024,
     });
     this.getReservations();
   }
@@ -22,7 +23,15 @@ export default class App extends Component {
     super.setState({ ...newState, scrollTop: scrollTop });
   }
 
-  get isMobile() { return document.getElementById('app').clientWidth < 1024 }
+  didMount() {
+    // 화면 사이즈가 달라질 때마다 체크한다.
+    window.addEventListener('resize', () => {
+      const isMobile = document.getElementById('app').clientWidth < 1024;
+      if (this.state.isMobile === isMobile) { return; }
+      const focusReservation = isMobile ? null : this.state.reservations[0];
+      this.setState({ isMobile, focusReservation });
+    })
+  }
 
   didUpdate() {
     this.initReservationCardComponents();
@@ -47,9 +56,9 @@ export default class App extends Component {
 
   // 예약 상세 component sync
   initReservationDetailComponent() {
-    const { focusReservation } = this.state;
+    const { focusReservation, isMobile } = this.state;
     // mobile인 경우, modal로 보여줘야 하기 때문에 modal component도 sync해준다.
-    if (this.isMobile) {
+    if (isMobile) {
       const $modal = this.target.querySelector('#reservation-detail-modal');
       new Modal($modal, {
         content: `<div id="reservation-detail"></div>`,
@@ -70,7 +79,7 @@ export default class App extends Component {
       const { reservations } = resp.data;
       this.setState({
         reservations: reservations.filter((reservation) => reservation.status !== 'done'),
-        focusReservation: this.isMobile ? null : reservations[0],
+        focusReservation: this.state.isMobile ? null : reservations[0],
       });
     }).catch((error) => { console.error(error); });
   }
@@ -105,7 +114,7 @@ export default class App extends Component {
   }
 
   template() {
-    const { reservations, focusReservation } = this.state;
+    const { reservations, focusReservation, isMobile } = this.state;
 
     return `
       <header>
@@ -127,7 +136,7 @@ export default class App extends Component {
           </div>
 
           <!-- 예약 상세 -->
-          ${this.isMobile || !focusReservation ? '' : `<div id="reservation-detail"></div>`}
+          ${isMobile || !focusReservation ? '' : `<div id="reservation-detail"></div>`}
         </div>
       </div>
 
