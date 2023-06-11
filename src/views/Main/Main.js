@@ -22,7 +22,7 @@ export default class App extends Component {
     super.setState({ ...newState, scrollTop: scrollTop });
   }
 
-  get isMobile() { return screen.width < 1024; }
+  get isMobile() { return document.getElementById('app').clientWidth < 1024 }
 
   didUpdate() {
     this.initReservationCardComponents();

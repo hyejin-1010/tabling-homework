@@ -9,7 +9,7 @@ import './ReservationDetail.scss';
  */
 export default class ReservationDetail extends Component {
 
-  get isMobile() { return screen.width < 1024; }
+  get isMobile() { return document.getElementById('app').clientWidth < 1024 }
 
   template() {
     const { reservation } = this.props;
