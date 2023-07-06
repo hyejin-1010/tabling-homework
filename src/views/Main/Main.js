@@ -28,8 +28,11 @@ export default class Main extends Component {
     window.addEventListener('resize', () => {
       const isMobile = document.getElementById('app').clientWidth < 1024;
       if (this.state.isMobile === isMobile) { return; }
-      const focusReservation = isMobile ? null : this.state.reservations[0];
-      this.setState({ isMobile, focusReservation });
+      const { focusReservation, reservations } = this.state;
+      this.setState({
+        isMobile,
+        focusReservation: isMobile ? null : (focusReservation || reservations[0]),
+      });
     })
   }
 
@@ -87,8 +90,7 @@ export default class Main extends Component {
 
   // 예약 목록에서 카드를 클릭한 경우
   onClickReservationCard(focusReservation) {
-    const $scrollDiv = this.target.querySelector('.scroll');
-    this.setState({ focusReservation, scrollTop: $scrollDiv.scrollTop });
+    this.setState({ focusReservation });
   }
 
   // 착석 버튼 클릭한 경우, 해당 예약의 상태를 'seated'로 바꾼다.
